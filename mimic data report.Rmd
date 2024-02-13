@@ -1,0 +1,30 @@
+---
+title: "Test"
+output: html_document
+date: "2024-02-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(palmerpenguins)
+library(DataExplorer)
+library(tidyverse)
+```
+
+```{r}
+setwd("/Users/lyasm/OneDrive/Desktop")
+ptdata<-read.csv(file="mimic.csv", header = T, sep = ",")
+```
+
+```{r}
+create_report(
+  ptdata,
+  output_file = "dataexplorer_report.html",
+  output_dir = getwd(),
+  config = configure_report(),
+  report_title = "Data Report"
+)
+```
+
