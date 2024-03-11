@@ -35,4 +35,6 @@ This aim of this project is ICU patient mortality prediction. There are several 
 
 -Evaluate and compare model performance
 
+-Conduct oversampling and re-evalute model performance
+
 -Conduct feature selection to determine the most influential features for predicting ICU patient mortality
