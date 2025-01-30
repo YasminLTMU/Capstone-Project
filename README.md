@@ -4,7 +4,7 @@ This repository contains the CIND820 Capstone Project files which consists of th
 
 ## Research Questions
 
-This aim of this project is ICU patient mortality prediction. There are several research questions that are to be answered during this project. These are: 
+The aim of this project is ICU patient mortality prediction. There are several research questions that are to be answered during this project. These are: 
 
 -Is it possible to create a highly accurate ICU admitted patient survival model?
 
