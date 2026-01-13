@@ -1,4 +1,4 @@
-# CIND820 Capstone Project Repository
+# Patient Mortality Prediction
 
 This repository contains the CIND820 Capstone Project files which consists of the MIMIC III dataset, EDA html file, Python/Jupyter notebooks and an outline of the tenative stages of this project.
 
